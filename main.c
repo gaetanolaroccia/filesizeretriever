@@ -53,7 +53,7 @@ int main(){
 		char buff[1024] = {0};
 		char * welcome = "Welcome to Remote File Size Retriever, Please Insert File Path:\n";
                 char * insert_length = "\nInsert File Path Character Length\n";
-                char * come_back= "\nPlease, Feel Free to Come Back Again!\nRemember to Visit Us at https://github.com/artegiani/filesizeretriever";
+                char * come_back= "\nPlease, Feel Free to Come Back Again!\nRemember to Visit Us at https://github.com/gaetanolaroccia/filesizeretriever";
 		char *fnf = "\nFile not Found\n";
 		char *ff = "\nFile Found!\n";
 		char * numero_caratteri = "\nCharacters Number: ";
