@@ -46,7 +46,7 @@ int main(){
 	}
         while(1){
 		//variables 
-		char appoggio[1024]={0};
+		char appoggio[4096]={0};
 		char buffer[1024] = {0};
 		char alength[1024]={0};
  		char buffer2[1024] = {0};
@@ -136,8 +136,8 @@ int main(){
         	        alength[j]=buffer2[j];
 	         }
 		length = atoi (alength);
-		if(length > 1024){
-			length=1024;
+		if(length > 4096){
+			length=4096;
 		}
 		if(length<0){
 			length = 0;
